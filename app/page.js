@@ -1,7 +1,7 @@
 import HeroSection from './components/HeroSection'
 export default function Home() {
   return (
-    <main className="flex h-full flex-col bg-white ">
+    <main className="flex h-full flex-col bg-white" dir="rtl">
      <HeroSection />
     </main>
   )
