@@ -1,5 +1,5 @@
 import React from "react";
-import { incentives } from "store/app/data/constants/incentives";
+import { incentives } from "store/app/data/constants/Incentives";
 export default function About() {
   return (
     <div className="bg-gray-50 ">
