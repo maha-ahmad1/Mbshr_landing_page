@@ -3,7 +3,7 @@ import About from "./components/AboutUs";
 import Features from "./components/Features";
 import Brand from "./components/Brand";
 import Numbers from "./components/Numbers";
-
+import Reviews from "./components/Reviews"
 
 
 export default function Home() {
@@ -12,8 +12,9 @@ export default function Home() {
       <HeroSection />
       <About />
       <Features />
-      <Brand />
       <Numbers/>
+      <Brand />
+      <Reviews />
     </main>
   );
 }

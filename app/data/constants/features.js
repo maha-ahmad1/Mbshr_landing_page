@@ -1,7 +1,7 @@
 export const features = [
     {
       paragraphs: 'بالأرقام.. تزداد أرباح عملاءنا بمجرّد الانضمام لمبشر       ',
-      label:"Happy Customers",
+      label:"Happy ",
       number:"15 M+"
 
     },
