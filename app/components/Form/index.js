@@ -3,9 +3,10 @@ import Benefit from "../Benefit";
 export default function Form() {
   return (
     <>
-      <div className="flex flex-col-reverse lg:flex-row justify-around items-center ">
+      <div className="flex flex-col-reverse lg:flex-row justify-around ">
         <Benefit />
-        <div className="px-10 w-96 bg-[#250D61] lg:-translate-y-40 -translate-y-20 py-6 lg:mr-96 mb-10 ">
+        <div className="flex items-center flex-col-reverse lg:flex-row">
+        <div className="px-10 w-96 bg-[#250D61] lg:-translate-y-40 -translate-y-20 py-6 lg:mr-96  ">
           <div className="text-center text-white">
             <p className="text-3xl pb-4 pt-4 ">تواصل مع فريق المبيعات</p>
             <p className="pb-6">
@@ -74,6 +75,7 @@ export default function Form() {
               تسجيل
             </button>
           </form>
+        </div>
         </div>
       </div>
     </>
