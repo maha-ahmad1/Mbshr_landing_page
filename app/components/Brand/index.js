@@ -54,7 +54,7 @@ export default function Brand () {
         </SwiperSlide>
         <SwiperSlide className="">
         <Image
-            src="/assets/image/client1.svg"
+            src="/assets/image/client8.jpg"
             alt="SwiperSlide"
             width={500}
             height={500}
@@ -63,7 +63,7 @@ export default function Brand () {
         </SwiperSlide>
         <SwiperSlide className="">
         <Image
-            src="/assets/image/client2.svg"
+            src="/assets/image/client7.jpg"
             alt="SwiperSlide"
             width={500}
             height={500}
@@ -72,7 +72,7 @@ export default function Brand () {
         </SwiperSlide>
         <SwiperSlide className="">
         <Image
-            src="/assets/image/client3.svg"
+            src="/assets/image/client6.jpg"
             alt="SwiperSlide"
             width={500}
             height={500}
@@ -81,7 +81,43 @@ export default function Brand () {
         </SwiperSlide>
         <SwiperSlide className="">
         <Image
-            src="/assets/image/client4.svg"
+            src="/assets/image/client5.svg"
+            alt="SwiperSlide"
+            width={500}
+            height={500}
+            className="w-40 "
+          />
+        </SwiperSlide>
+        <SwiperSlide className="">
+        <Image
+            src="/assets/image/client9.jpg"
+            alt="SwiperSlide"
+            width={500}
+            height={500}
+            className="w-40 "
+          />
+        </SwiperSlide>
+        <SwiperSlide className="">
+        <Image
+            src="/assets/image/client10.jpg"
+            alt="SwiperSlide"
+            width={500}
+            height={500}
+            className="w-40 "
+          />
+        </SwiperSlide>
+        <SwiperSlide className="">
+        <Image
+            src="/assets/image/client11.jpeg"
+            alt="SwiperSlide"
+            width={500}
+            height={500}
+            className="w-40 "
+          />
+        </SwiperSlide>
+        <SwiperSlide className="">
+        <Image
+            src="/assets/image/client12.png"
             alt="SwiperSlide"
             width={500}
             height={500}

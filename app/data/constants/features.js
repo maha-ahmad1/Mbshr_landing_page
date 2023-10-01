@@ -1,26 +1,22 @@
 export const features = [
-    {
-      paragraphs: 'بالأرقام.. تزداد أرباح عملاءنا بمجرّد الانضمام لمبشر       ',
-      label:"Happy ",
-      number:"15 M+"
-
-    },
-    {
-      paragraphs: '     ',
-      label: "Customer Satisfaction",
-      number:"10 M+"
-
-    },
-    {
-      paragraphs: '     ',
-      label: "Projects Completed",
-      number:"600 k+"
-
-    },
-    {
-      paragraphs: '',
-      number:"600 k+",
-      label: "Projects Completed",
-    },
-  ]
-  
+  {
+    symbol: "+M",
+    label: "مستخدمين ",
+    number: "15",
+  },
+  {
+    symbol: "+M",
+    label: "مستخدمين ",
+    number: "10",
+  },
+  {
+    symbol: "+K",
+    label: "طلبات",
+    number: "600",
+  },
+  {
+    symbol: "",
+    number: "300",
+    label: "مطاعم",
+  },
+];

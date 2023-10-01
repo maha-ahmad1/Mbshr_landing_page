@@ -6,23 +6,15 @@ export default function Features() {
       <div class="bg-white py-24 sm:py-32">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:text-center">
-            {/* <h2 class="text-base font-semibold leading-7 text-indigo-600">
-              Deploy faster
-            </h2> */}
             <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              منيو إلكتروني موحد للطلب والحجز والدفع
-            </p>
-            <p class="mt-6 text-lg leading-8 text-gray-600">
-              مكّنك منيو مبشر من تعديل أطباق المنيو الإلكتروني والتفاصيل والصور
-              ، وإضافة قائمة طعام وأطباق موسمية في الأعياد ورمضان بمنتهي السهولة
-              بضغطة زر دون أي تكلفة
+              لماذا المنيو الالكتروني؟{" "}
             </p>
           </div>
-          <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-            <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+          <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-7xl">
+            <dl class="grid max-w-xl grid-cols-1 gap-x-6 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
               <div class="relative pl-16">
-                <dt class="text-base font-semibold leading-7 text-gray-900">
-                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61]">
+                <dt class="font-semibold leading-7 text-gray-900 mr-20 text-xl">
+                  <div class="absolute right-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61]">
                     <svg
                       class="h-6 w-6 text-white"
                       fill="none"
@@ -38,17 +30,12 @@ export default function Features() {
                       />
                     </svg>
                   </div>
-                  زيادة في متوسط ​​الفاتورة.
+                  سهولة الوصول للكود واستخدامه
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-gray-600">
-                تم تصميم QR منيو مبشر الإلكتروني خصيصًا لتمكين عملائك من سكان الباركود والطلب والدفع من هواتفهم لتقليل التكاليف التشغيلية.
-
-
-                </dd>
               </div>
               <div class="relative pl-16">
-                <dt class="text-base font-semibold leading-7 text-gray-900">
-                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61]">
+                <dt class="font-semibold leading-7 text-gray-900 mr-20 text-xl">
+                  <div class="absolute right-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61]">
                     <svg
                       class="h-6 w-6 text-white"
                       fill="none"
@@ -64,17 +51,12 @@ export default function Features() {
                       />
                     </svg>
                   </div>
-                  زيادة في متوسط ​​الفاتورة.{" "}
+                  استقبال جميع الطلبات من خلاله{" "}
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-gray-600">
-                تم تصميم QR منيو مبشر الإلكتروني خصيصًا لتمكين عملائك من سكان الباركود والطلب والدفع من هواتفهم لتقليل التكاليف التشغيلية.
-
-
-                </dd>
               </div>
               <div class="relative pl-16">
-                <dt class="text-base font-semibold leading-7 text-gray-900">
-                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61]">
+                <dt class="font-semibold leading-7 text-gray-900 mr-20 text-xl">
+                  <div class="absolute right-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61] ">
                     <svg
                       class="h-6 w-6 text-white"
                       fill="none"
@@ -90,17 +72,12 @@ export default function Features() {
                       />
                     </svg>
                   </div>
-                  زيادة في متوسط ​​الفاتورة.{" "}
+                  الدفع الالكتروني
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-gray-600">
-                تم تصميم QR منيو مبشر الإلكتروني خصيصًا لتمكين عملائك من سكان الباركود والطلب والدفع من هواتفهم لتقليل التكاليف التشغيلية.
-
-
-                </dd>
               </div>
               <div class="relative pl-16">
-                <dt class="text-base font-semibold leading-7 text-gray-900">
-                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61]">
+                <dt class="font-semibold leading-7 text-gray-900 mr-20 text-xl">
+                  <div class="absolute right-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61]">
                     <svg
                       class="h-6 w-6 text-white"
                       fill="none"
@@ -116,12 +93,92 @@ export default function Features() {
                       />
                     </svg>
                   </div>
-                  زيادة في متوسط ​​الفاتورة.{" "}
+                  قائمة طعام رقمية متجاوبة مع جميع الأجهزة
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-gray-600">
-                  تم تصميم QR منيو مبشر الإلكتروني خصيصًا لتمكين عملائك من سكان
-                  الباركود والطلب والدفع من هواتفهم لتقليل التكاليف التشغيلية.
-                </dd>
+              </div>
+              <div class="relative pl-16">
+                <dt class="font-semibold leading-7 text-gray-900 mr-20 text-xl">
+                  <div class="absolute right-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61]">
+                    <svg
+                      class="h-6 w-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z"
+                      />
+                    </svg>
+                  </div>
+                  استلام الطلبات من المنيو بشكل مباشر{" "}
+                </dt>
+              </div>
+              <div class="relative pl-16">
+                <dt class="font-semibold leading-7 text-gray-900 mr-20 text-xl">
+                  <div class="absolute right-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61]">
+                    <svg
+                      class="h-6 w-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z"
+                      />
+                    </svg>
+                  </div>
+                  قابل للتخصيص بشكل كامل
+                </dt>
+              </div>
+              <div class="relative pl-16">
+                <dt class="font-semibold leading-7 text-gray-900 mr-20 text-xl">
+                  <div class="absolute right-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61]">
+                    <svg
+                      class="h-6 w-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z"
+                      />
+                    </svg>
+                  </div>
+                  قاعدة عملاء دقيقة وتفصيلية
+                </dt>
+              </div>
+              <div class="relative pl-16">
+                <dt class="font-semibold leading-7 text-gray-900 mr-20 text-xl">
+                  <div class="absolute right-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-[#250D61]">
+                    <svg
+                      class="h-6 w-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z"
+                      />
+                    </svg>
+                  </div>
+                  سهل الاعداد والإدارة{" "}
+                </dt>
               </div>
             </dl>
           </div>
