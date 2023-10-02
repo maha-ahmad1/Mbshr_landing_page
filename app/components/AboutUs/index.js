@@ -1,5 +1,4 @@
 import React from "react";
-import { incentives } from "store/app/data/constants/Incentives";
 export default function About() {
   return (
       <div className="mx-auto max-w-[92rem] py-24 sm:px-2 sm:py-32 lg:px-4 lg:mr-10 ">
@@ -16,13 +15,6 @@ export default function About() {
                 بسهولة تامة.
               </p>
             </div>
-            {/* <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
-              <img
-                src="https://tailwindui.com/img/ecommerce-images/incentives-07-hero.jpg"
-                alt=""
-                className="object-cover object-center"
-              />
-            </div> */}
           </div>
         </div>
       </div>

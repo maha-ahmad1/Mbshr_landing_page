@@ -7,7 +7,7 @@ export default function Form() {
       <div className="flex flex-col-reverse lg:flex-row justify-around bg-white ">
         <AboutUs />
         <div className="flex items-center flex-col-reverse lg:flex-row">
-          <div className="px-10 w-[500px] bg-[#250D61] lg:-translate-y-40 -translate-y-20 py-10 lg:ml-60">
+          <div className="px-10 lg:w-[500px] bg-[#250D61] lg:-translate-y-40 -translate-y-20 py-10 lg:ml-60">
             <div className="text-center text-white">
               <p className="text-4xl pb-4 pt-4 ">
                 احصل على عرض سعر لباقات المنيو الالكتروني
