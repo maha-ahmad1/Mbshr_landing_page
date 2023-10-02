@@ -9,13 +9,22 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import Image from "next/image";
 
 export default function Reviews() {
+  const breakpoints = {
+    // When window width is >= 768px
+    452: {
+      slidesPerView: 1,
+    },
+    // When window width is >= 992px
+    992: {
+      slidesPerView: 3,
+    },
+  };
   return (
     <div className=" lg:mx-48 my-20">
       <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl ">
-        <h3 className="mb-6 text-3xl font-bold text-neutral-800 dark:text-neutral-200">
-          آراء الناس{" "}
+        <h3 className="mb-10 text-3xl font-bold text-neutral-800 dark:text-neutral-200">
+          قالوا عن مبشر
         </h3>
-        <p className="mb-6 pb-2 md:mb-12 md:pb-0 text-2xl">هل نحن معجبون؟</p>
       </div>
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -24,6 +33,7 @@ export default function Reviews() {
         navigation
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
+        breakpoints={breakpoints}
       >
         {/* Testimonial 1 */}
         <SwiperSlide>
@@ -38,14 +48,14 @@ export default function Reviews() {
               />
             </div>
             <h5 className="mb-4 text-xl font-semibold text-center">
-              Youssef Milad
+              حسام حسن{" "}
             </h5>
             <h6 className="mb-4 font-semibold text-primary text-center">
-              F&B Operation Manager
+              مدير التشغيل{" "}
             </h6>
             <p className="mb-4 text-center">
-              Great customer services as they are very approachable and quick,
-              they provide 24/7 hours support
+              مبشر هو نظام يقدم قيمة عالية للمطاعم والكافيهات حيث يساعدك في
+              تقليل عدد الموظفين ويوفر وقت وجهد الموظفين.
             </p>
           </div>
         </SwiperSlide>
@@ -61,14 +71,13 @@ export default function Reviews() {
               />
             </div>
             <h5 className="mb-4 text-xl font-semibold text-center">
-              Fadi Rahal
+              فادي رحال{" "}
             </h5>
             <h6 className="mb-4 font-semibold text-primary text-center">
-              Marketing Manager{" "}
+              مدير التسويق{" "}
             </h6>
             <p className="mb-4 text-center">
-              Great customer services, they give attention to details and
-              deliver within a timeline
+              ممتازين جدا وشغلهم دقيق وسريع في الموعد . لا يوجد أي أعطال تقنية .
             </p>
           </div>
         </SwiperSlide>
@@ -85,14 +94,14 @@ export default function Reviews() {
               />
             </div>
             <h5 className="mb-4 text-xl font-semibold text-center">
-              Hossam Hassan{" "}
+              يوسف ميلاد{" "}
             </h5>
             <h6 className="mb-4 font-semibold text-primary dark:text-primary-400 text-center">
-              Operation Manager{" "}
+              مدير التشغيل{" "}
             </h6>
             <p className="mb-4 text-neutral-600 dark:text-neutral-300 text-center">
-              Mbshr system is of great value to restaurants and cafes, as it
-              enables us to reduce the number of staff
+              مبشر شركة متميزة وتعاملها جدا راقي و خدمة سريعة عن تجربة حقيقية و
+              خدمة على مدار الساعة متواجدين في الدعم الفني .
             </p>
           </div>
         </SwiperSlide>

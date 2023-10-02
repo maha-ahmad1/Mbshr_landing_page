@@ -1,7 +1,31 @@
-import React from "react";
+"use client";
+
+import React, { useRef } from "react";
 import AboutUs from "../AboutUs";
+import emailjs from "@emailjs/browser";
 
 export default function Form() {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_cnf4hkf",
+        "template_libm1rg",
+        form.current,
+        "gVYeu2g8jVt2Ptfxr"
+      )
+      .then((result) => {
+        console.log(result.text);
+
+        // Clear the form fields
+        form.current.reset();
+      })
+      .catch((error) => {
+        console.log(error.text);
+      });
+  };
   return (
     <>
       <div className="flex flex-col-reverse lg:flex-row justify-around bg-white ">
@@ -16,52 +40,53 @@ export default function Form() {
                 قم بتعبئة البيانات للتواصل معك وارسال عرض سعر خاص{" "}
               </p>
             </div>
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <div class="mb-6">
                 <input
+                  name="user_name"
                   placeholder="اسم الشخص "
                   type="text"
-                  id="password"
-                  className=" outline-none shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   "
+                  className=" outline-none shadow-sm bg-gray-50 border border-gray-300 font-medium text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   "
                   required
                 />
               </div>
               <div className="mb-6">
                 <input
+                  name="user_number"
                   placeholder="الرقم"
                   type="number"
-                  id="repeat-password"
-                  className=" outline-none remove-arrow shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   "
+                  className=" outline-none remove-arrow shadow-sm bg-gray-50 border font-medium border-gray-300 text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5   "
                   required
                 />
               </div>
               <div className="mb-6">
                 <input
+                  name="user_email"
                   placeholder="ايميل "
                   type="email"
-                  id="repeat-password"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 outline-none  "
+                  className="bg-gray-50 border border-gray-300 text-black text-sm font-medium rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 outline-none  "
                   required
                 />
               </div>
               <div className="mb-6">
                 <select
-                  id="countries"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
+                  name="user_select"
+                  className="outline-none  bg-gray-50 border border-gray-300 text-black font-medium text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
                 >
                   <option value="" disabled selected>
                     نوع البزنس :
                   </option>
-                  <option value="US">مقهى</option>
-                  <option value="CA">مطعم</option>
-                  <option value="FR">مجموعة مطاعم</option>
-                  <option value="DE">فندق</option>
+                  <option value="مقهى">مقهى</option>
+                  <option value="مطعم">مطعم</option>
+                  <option value="مجموعة مطاعم">مجموعة مطاعم</option>
+                  <option value="فندق">فندق</option>
                 </select>
               </div>
               <div className="mb-6">
                 <input
+                  name="user_BusinessName"
                   type="text"
-                  className=" outline-none shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
+                  className=" outline-none shadow-sm bg-gray-50 border border-gray-300 font-medium text-black text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  "
                   placeholder="اسم البزنس"
                   required
                 />
