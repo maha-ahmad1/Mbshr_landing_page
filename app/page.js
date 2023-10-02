@@ -7,7 +7,7 @@ import Benefit from "./components/Benefit";
 
 export default function Home() {
   return (
-    <main className="flex h-full flex-col bg-white" dir="rtl">
+    <main className="flex h-full flex-col bg-white font-extralight" dir="rtl">
       <HeroSection />
       <Benefit />
       <Features />

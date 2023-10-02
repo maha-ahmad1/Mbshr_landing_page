@@ -9,7 +9,7 @@ export default function About() {
               <h2 className="text-4xl font-bold tracking-tight text-gray-900">
                 ما هو المنيو الالكتروني؟{" "}
               </h2>
-              <p className="mt-4 text-gray-900 text-xl w-[70%]">
+              <p className="mt-4 text-gray-900 text-xl w-[70%] ">
                 يعتبر بديل مثالي للمنيو الورقي وهو نظام الكتروني يتم من خلاله
                 عرض قائمة الطعام داخل المطاعم والمقاهي والفنادق بحيث يمكن
                 للزبائن الطلب من خلال مسح الكود على الطاولة والدفع من الطاولة

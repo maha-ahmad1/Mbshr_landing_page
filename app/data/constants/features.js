@@ -15,7 +15,7 @@ export const features = [
     number: "600",
   },
   {
-    symbol: "",
+    symbol: "+K",
     number: "300",
     label: "مطاعم",
   },
